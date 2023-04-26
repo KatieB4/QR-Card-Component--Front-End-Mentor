@@ -1,27 +1,25 @@
 .card {
   background-color: $color-white;
-  // padding: 2rem;
-  padding: calc(20rem / 16);
+  // padding: calc(20rem / 16);
+  padding: var(--20px);
   border-radius: 20px;
   box-shadow: 0 1.5rem 6rem rgba($color-blue--dark, 0.2);
-  // max-width: 30rem;
   max-width: calc(300rem / 16);
   display: flex;
   flex-direction: column;
-  // gap: 2rem;
-  gap: calc(20rem / 16);
-  // margin-top: 10rem;
+  // gap: calc(20rem / 16);
+  gap: var(--20px);
   margin-top: calc(100rem / 16);
 
   &__heading {
     font-weight: 700;
-    // margin-bottom: 1rem;
-    margin-bottom: calc(10rem / 16);
+    // margin-bottom: calc(15rem / 16);
+    margin-bottom: var(--15px);
   }
 
   &__info {
-    // margin-bottom: 2rem;
-    margin-bottom: calc(20rem / 16);
+    // margin-bottom: calc(20rem / 16);
+    margin-bottom: var(--20px);
   }
 
   &__description {
@@ -41,6 +39,6 @@
 }
 
 .attribution {
-  // margin-top: 2rem;
-  margin-top: calc(20rem / 16);
+  // margin-top: calc(20rem / 16);
+  margin-top: var(--20px);
 }
